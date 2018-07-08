@@ -23,6 +23,8 @@ public interface InterfaceCrud<T> extends Serializable {
 
 	void update(T obj) throws Exception;
 	
+	void delete(T obj) throws Exception;
+
 	T merge(T obj) throws Exception;
 	
 	// Carrega a lista de dados
